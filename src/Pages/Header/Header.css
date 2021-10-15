@@ -1,0 +1,31 @@
+.header a {
+    margin-right: 30px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.header img{
+    width: 100px;
+    margin-left: 30px;
+}
+
+#sign{
+    background-color: rgb(250, 84, 7);
+    color: cornsilk;
+    padding: 4px 5px;
+    border-radius: 5px;
+}
+#logOut{
+    background-color: rgb(129, 45, 5);
+    color: cornsilk;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
