@@ -36,7 +36,7 @@ function App() {
         <PrivateRoute path="/placeorder">
         <PlaceOrder></PlaceOrder>
         </PrivateRoute>
-        <Route path="/notfound">
+        <Route path="*">
           <NotFound></NotFound>
         </Route>
       </Switch>
